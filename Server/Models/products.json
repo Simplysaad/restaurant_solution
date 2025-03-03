@@ -1,0 +1,591 @@
+[
+    {
+        "name": "Jollof Rice",
+        "description": "Aromatic rice cooked in a rich tomato and pepper sauce, served with fried plantains.",
+        "category": "staples",
+        "price": 12.99,
+        "image": "https://example.com/images/jollof-rice.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "jollof",
+            "rice",
+            "tomato",
+            "pepper",
+            "plantain",
+            "west african",
+            "staple",
+            "spicy"
+        ]
+    },
+    {
+        "name": "Suya",
+        "description": "Spicy grilled skewered meat, typically beef or chicken, coated with a peanut spice mix.",
+        "category": "protein",
+        "price": 14.99,
+        "image": "https://example.com/images/suya.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "suya",
+            "grilled",
+            "skewered",
+            "beef",
+            "chicken",
+            "peanut",
+            "spice",
+            "yaji",
+            "nigerian"
+        ]
+    },
+    {
+        "name": "Pounded Yam",
+        "description": "Smooth and stretchy yam dough, served with egusi soup.",
+        "category": "swallow",
+        "price": 9.99,
+        "image": "https://example.com/images/pounded-yam.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "pounded yam",
+            "iyan",
+            "yam",
+            "swallow",
+            "side dish",
+            "starchy",
+            "smooth"
+        ]
+    },
+    {
+        "name": "Egusi Soup",
+        "description": "A rich soup made with ground melon seeds, leafy vegetables, and assorted meats.",
+        "category": "staples",
+        "price": 11.99,
+        "image": "https://example.com/images/egusi-soup.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "egusi",
+            "soup",
+            "melon seeds",
+            "vegetables",
+            "meat",
+            "nigerian",
+            "stew",
+            "rich"
+        ]
+    },
+    {
+        "name": "Akara",
+        "description": "Deep-fried bean cakes made from peeled black-eyed peas, crispy on the outside and soft inside.",
+        "category": "snacks",
+        "price": 5.99,
+        "image": "https://example.com/images/akara.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "akara",
+            "bean cakes",
+            "black-eyed peas",
+            "fried",
+            "snack",
+            "fritters",
+            "nigerian"
+        ]
+    },
+    {        "name": "Fried Plantains",
+        "description": "Sweet and ripe plantains fried to golden perfection.",
+        "category": "snacks",
+        "price": 4.99,
+        "image": "https://example.com/images/fried-plantains.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "fried plantains",
+            "plantains",
+            "dodo",
+            "fried",
+            "sweet",
+            "snack",
+            "side",
+            "caramelized"
+        ]
+    },
+    {
+        "name": "Pepper Soup",
+        "description": "Spicy broth made with goat meat, fish, or chicken, infused with African spices.",
+        "category": "staples",
+        "price": 10.99,
+        "image": "https://example.com/images/pepper-soup.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "pepper soup",
+            "soup",
+            "broth",
+            "goat meat",
+            "fish",
+            "chicken",
+            "spicy",
+            "african spices"
+        ]
+    },
+    {
+        "name": "Moi Moi",
+        "description": "Steamed bean pudding made from blended black-eyed peas, peppers, and onions.",
+        "category": "snacks",
+        "price": 6.99,
+        "image": "https://example.com/images/moi-moi.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "moi moi",
+            "bean pudding",
+            "black-eyed peas",
+            "steamed",
+            "snack",
+            "savory",
+            "nigerian"
+        ]
+    },
+    {
+        "name": "Fufu",
+        "description": "Soft dough made from cassava and plantains, served with light soup or okra soup.",
+        "category": "swallow",
+        "price": 8.99,
+        "image": "https://example.com/images/fufu.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "fufu",
+            "cassava",
+            "plantains",
+            "dough",
+            "swallow",
+            "side dish",
+            "starchy",
+            "west african"
+        ]
+    },
+    {
+        "name": "Grilled Tilapia",
+        "description": "Whole tilapia fish marinated in spices and grilled to perfection, served with jollof rice.",
+        "category": "protein",
+        "price": 18.99,
+        "image": "https://example.com/images/grilled-tilapia.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "grilled tilapia",
+            "tilapia",
+            "fish",
+            "grilled",
+            "jollof rice",
+            "protein",            "whole fish",
+            "marinated"
+        ]
+    },
+    {
+        "name": "Okra Soup",
+        "description": "Slimy and flavorful soup made with okra, assorted meats, and fish.",
+        "category": "staples",
+        "price": 11.99,
+        "image": "https://example.com/images/okra-soup.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "okra soup",
+            "okra",
+            "soup",
+            "slimy",
+            "flavorful",
+            "meat",
+            "fish",
+            "african soup"
+        ]
+    },
+    {
+        "name": "Chin Chin",
+        "description": "Crunchy fried snack made from flour, sugar, and butter.",
+        "category": "snacks",
+        "price": 3.99,
+        "image": "https://example.com/images/chin-chin.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "chin chin",
+            "fried snack",
+            "flour",
+            "sugar",
+            "butter",
+            "crunchy",
+            "snack",
+            "west african"
+        ]
+    },
+    {
+        "name": "Efo Riro",
+        "description": "A rich and spicy vegetable stew made with spinach, peppers, and assorted meats.",
+        "category": "staples",
+        "price": 12.99,
+        "image": "https://example.com/images/efo-riro.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "efo riro",
+            "vegetable stew",
+            "spinach",
+            "peppers",
+            "meat",
+            "stew",
+            "rich",
+            "yoruba"
+        ]
+    },
+    {
+        "name": "Puff Puff",
+        "description": "Sweet and fluffy deep-fried dough balls, perfect as a snack or dessert.",
+        "category": "snacks",
+        "price": 4.99,
+        "image": "https://example.com/images/puff-puff.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "puff puff",
+            "fried dough",
+            "dough balls",
+            "sweet",
+            "fluffy",
+            "snack",
+            "dessert",
+            "west african"
+        ]
+    },
+    {
+        "name": "Goat Meat Stew",
+        "description": "Tender goat meat cooked in a flavorful tomato and onion sauce.",
+        "category": "protein",
+        "price": 15.99,
+        "image": "https://example.com/images/goat-meat-stew.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "goat meat stew",
+            "goat meat",
+            "stew",
+            "tomato sauce",
+            "onion",
+            "protein",
+            "african"
+        ]
+    },
+    {
+        "name": "Amala",
+        "description": "Smooth and dark swallow made from yam flour, served with ewedu soup.",
+        "category": "swallow",
+        "price": 999.99,
+        "image": "https://example.com/images/amala.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "amala",
+            "yam flour",
+            "swallow",
+            "dark",
+            "smooth",
+            "ewedu soup",
+            "nigerian"
+        ]
+    },
+    {
+        "name": "Ewedu Soup",
+        "description": "Slimy soup made from jute leaves, often served with amala or eba.",
+        "category": "staples",
+        "price": 899.9,
+        "image": "https://example.com/images/ewedu-soup.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "ewedu soup",
+            "jute leaves",
+            "slimy",
+            "soup",
+            "amala",
+            "eba",
+            "yoruba"
+        ]
+    },
+    {
+        "name": "Banga Soup",
+        "description": "A palm nut soup from the Niger Delta, served with starch or fufu.",
+        "category": "staples",
+        "price": 1399.99,
+        "image": "https://example.com/images/banga-soup.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "banga soup",
+            "palm nut",
+            "niger delta",
+            "soup",
+            "starch",
+            "fufu",
+            "nigerian"
+        ]
+    },
+    {
+        "name": "Zobo Drink",
+        "description": "Refreshing hibiscus drink flavored with ginger and pineapple.",
+        "category": "snacks",
+        "price": 399.99,
+        "image": "https://example.com/images/zobo-drink.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "zobo drink",
+            "hibiscus",
+            "ginger",
+            "pineapple",
+            "refreshing",
+            "drink",
+            "snack"
+        ]
+    },
+    {
+        "name": "Eba",
+        "description": "A swallow made from garri (cassava flakes), served with soups like egusi or okra.",
+        "category": "swallow",
+        "price": 799.99,
+        "image": "https://example.com/images/eba.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "eba",
+            "garri",
+            "cassava",
+            "swallow",
+            "side dish",
+            "nigerian"
+        ]
+    },
+    {
+        "name": "Suya Skewers",
+        "description": "Nigerian spiced beef skewers with Yaji peanut rub, grilled over open flame",
+        "category": "protein",
+        "price": 1499.99,
+        "image": "https://res.cloudinary.com/africanfoods/suya-skewers.jpg",
+        "keywords": [
+            "suya",
+            "beef skewers",
+            "yaji",
+            "peanut rub",
+            "grilled",
+            "nigerian"
+        ]
+    },
+    {
+        "name": "Jollof Rice with Vegetables",
+        "description": "West African tomato-infused rice with mixed vegetables",
+        "category": "staples",
+        "price": 399.99,
+        "image": "https://res.cloudinary.com/africanfoods/jollof-rice.jpg",
+        "keywords": [
+            "jollof rice",
+            "tomato rice",
+            "mixed vegetables",
+            "west african"
+        ]
+    },
+    {
+        "name": "Egusi Soup with Bitter Leaf",
+        "description": "Ground melon seed soup with assorted meats and bitter leaf",
+        "category": "staples",
+        "price": 1699.99,
+        "image": "https://res.cloudinary.com/africanfoods/egusi-soup.jpg",
+        "keywords": [
+            "egusi soup",
+            "melon seed",
+            "assorted meats",
+            "bitter leaf"
+        ]
+    },
+    {
+        "name": "Fufu",
+        "description": "Pounded yam dough for swallowing soups",
+        "category": "swallow",
+        "price": 849.99,
+        "image": "https://res.cloudinary.com/africanfoods/fufu.jpg",
+        "keywords": ["fufu", "pounded yam", "swallow", "dough"]
+    },
+    {
+        "name": "Akara with Pepper Sauce",
+        "description": "Black-eyed pea fritters with pepper sauce",
+        "category": "snacks",
+        "price": 699.99,
+        "image": "https://res.cloudinary.com/africanfoods/akara.jpg",
+        "keywords": ["akara", "black-eyed peas", "fritters", "pepper sauce"]
+    },
+    {
+        "name": "Thieboudienne",
+        "description": "Senegalese fish rice with tamarind sauce",
+        "category": "staples",
+        "price": 184.99,
+        "image": "https://res.cloudinary.com/africanfoods/thieboudienne.jpg",
+        "keywords": [
+            "thieboudienne",
+            "senegalese",
+            "fish rice",
+            "tamarind sauce"
+        ]
+    },
+    {
+        "name": "Goat Pepper Soup",
+        "description": "Spicy bone-in goat meat in light broth",
+        "category": "protein",
+        "price": 1999.99,
+        "image": "https://res.cloudinary.com/africanfoods/thieboudienne.jpg",
+        "keywords": [
+            "goat pepper soup",
+            "spicy broth",
+            "goat meat",
+            "african spices"
+        ]
+    },
+    {
+         "name": "Moi Moi with Peas",
+        "description": "Steamed bean pudding made from blended black-eyed peas, peppers, and onions.",
+        "category": "snacks",
+        "price": 6.99,
+        "image": "https://example.com/images/moi-moi.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "moi moi",
+            "bean pudding",
+            "black-eyed peas",
+            "steamed",
+            "snack",
+            "savory",
+            "nigerian"
+        ]
+    },
+        {
+        "name": "Grilled Tilapia(spiced)",
+        "description": "Whole tilapia fish marinated in spices and grilled to perfection, served with jollof rice.",
+        "category": "protein",
+        "price": 18.99,
+        "image": "https://example.com/images/grilled-tilapia.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "grilled tilapia",
+            "tilapia",
+            "fish",
+            "grilled",
+            "jollof rice",
+            "protein",
+            "whole fish",
+            "marinated"
+        ]
+    },
+    {
+        "name": "Chin Chin Snack",
+        "description": "Crunchy fried snack made from flour, sugar, and butter.",
+        "category": "snacks",
+        "price": 3.99,
+        "image": "https://example.com/images/chin-chin.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "chin chin",
+            "fried snack",
+            "flour",
+            "sugar",
+            "butter",
+            "crunchy",
+            "snack",
+            "west african"
+        ]
+    },
+    {
+        "name": "Puff Puff Balls",
+        "description": "Sweet and fluffy deep-fried dough balls, perfect as a snack or dessert.",
+        "category": "snacks",
+        "price": 4.99,
+        "image": "https://example.com/images/puff-puff.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "puff puff",
+            "fried dough",
+            "dough balls",
+            "sweet",
+            "fluffy",
+            "snack",
+            "dessert",
+            "west african"
+        ]
+    },{
+        "name": "Banga Soup Nigerian",
+        "description": "A palm nut soup from the Niger Delta, served with starch or fufu.",
+        "category": "staples",
+        "price": 1399.99,
+        "image": "https://example.com/images/banga-soup.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "banga soup",
+            "palm nut",
+            "niger delta",
+            "soup",
+            "starch",
+            "fufu",
+            "nigerian"
+        ]
+    },
+    {
+        "name": "Eba Swallow",
+        "description": "A swallow made from garri (cassava flakes), served with soups like egusi or okra.",
+        "category": "swallow",
+        "price": 799.99,
+        "image": "https://example.com/images/eba.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "eba",
+            "garri",
+            "cassava",
+            "swallow",
+            "side dish",
+            "nigerian"
+        ]
+    },
+    {
+        "name": "Efo Riro vegetables",
+        "description": "A rich and spicy vegetable stew made with spinach, peppers, and assorted meats.",
+        "category": "staples",
+        "price": 12.99,
+        "image": "https://example.com/images/efo-riro.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "efo riro",
+            "vegetable stew",
+            "spinach",
+            "peppers",
+            "meat",
+            "stew",
+            "rich",
+            "yoruba"
+        ]
+    },
+    {
+        "name": "Okra Soup Meat&Fish",
+        "description": "Slimy and flavorful soup made with okra, assorted meats, and fish.",
+        "category": "staples",
+        "price": 11.99,
+        "image": "https://example.com/images/okra-soup.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "okra soup",
+            "okra",
+            "soup",
+            "slimy",
+            "flavorful",
+            "meat",
+            "fish",
+            "african soup"
+        ]
+    },
+    {
+        "name": "Amala yamflour",
+        "description": "Smooth and dark swallow made from yam flour, served with ewedu soup.",
+        "category": "swallow",
+        "price": 999.99,
+        "image": "https://example.com/images/amala.jpg",
+        "amountSold": 0,
+        "keywords": [
+            "amala",
+            "yam flour",
+            "swallow",
+            "dark",
+            "smooth",
+            "ewedu soup",
+            "nigerian"
+        ]
+    }
+
+]
