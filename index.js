@@ -80,6 +80,6 @@ app.post("/", async (req, res) => {
 });
 
 //SECONDARY ROUTING
-//app.use("/admin", require("./Server/Routes/adminRoutes"));
-//app.use("/auth", require("./Server/Routes/authRoutes"));
-//app.use("/", require("./Server/Routes/customerRoutes"));
+app.use("/admin", require("./Server/Routes/adminRoutes"));
+app.use("/auth", require("./Server/Routes/authRoutes"));
+app.use("/", require("./Server/Routes/customerRoutes"));
