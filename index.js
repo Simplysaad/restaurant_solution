@@ -18,7 +18,7 @@ const connectDB = require("./Config/db.js");
 
 const Product = require("./Server/Models/product.js");
 const Orders = require("./Server/Models/order.js");
-const ads = require("./Server/Models/ads.js");
+//const ads = require("./Server/Models/ads.js");
 
 //const authMiddleware = require("./Server/Utils/auth");
 

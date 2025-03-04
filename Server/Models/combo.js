@@ -16,9 +16,7 @@ const itemSchema = new mongoose.Schema(
             type: Number,
             required: true
         },
-        imageUrl: {
-            type: String
-        },
+        discount: Number,
         quantity: {
             type: Number,
             default: 1
@@ -26,38 +24,26 @@ const itemSchema = new mongoose.Schema(
     },
     { _id: false }
 );
-const ordersSchema = new mongoose.Schema({
+const comboSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        unique: true
+    },
+    description: String,
     customerId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Users'
     },
-    deliveryType: {
+    comboType: {
         type: String,
-        enum: ['pickup', 'delivery'],
-        default: 'pickup'
+        enum: ['personal', 'active', 'inactive', 'archive'],
+        default: 'personal'
     },
-    
-    status: {
-        type: String,
-        enum: ['pending', 'shipped', 'delivered', 'cancelled'],
-        default: 'pending'
-    },
-    paymentStatus: {
-        type: String,
-        enum: ['pending', 'successful', 'abandoned', 'failed'],
-        default: 'pending'
+    keywords: [String],
+    imageUrl: {
+        type: String
     },
     items: [itemSchema],
-    coupons: [{
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Coupons"
-    }],
-    totalCost: {
-        type: Number,
-        required: true
-    },
-    paymentMethod: String,
-
     createdAt: {
         type: Date,
         default: Date.now
