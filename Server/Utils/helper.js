@@ -1,54 +1,29 @@
 /** @format */
 
-const fs = require("fs");
-const path = require("path");
+const getDeliveryFees = totalCost => {
+    let deliveryFee = 0;
+    switch (true) {
+        case totalCost < 700:
+            deliveryFee = 200;
+            break;
+        case totalCost < 2000:
+            deliveryFee = 500;
+            break;
+        case totalCost < 10000:
+            deliveryFee = 700;
+            break;
+        case totalCost < 50000:
+            deliveryFee = 1500;
+            break;
 
-let products = JSON.parse(
-    fs.readFileSync(path.join(__dirname, "products.json"), "utf8")
-);
-
-console.log(products.length);
-//console.log(products);
-const findProducts = (property, value) => {
-    let result;
-
-    if (!property || !value) result = products;
-    else result = products.filter(product => product[property] == value);
-
-    return result;
+        default:
+            deliveryFee = 0;
+    }
+    return deliveryFee;
 };
-const findOneProduct = (property, value) => {
-    return products.find(product => product[property] == value);
-};
-const updateProducts = (
-    queryProperty,
-    queryValue,
-    updateProperty,
-    updateValue
-) => {
-    let query = products.filter(
-        product => product[queryProperty] == queryValue
-    );
-    query.forEach(product => {
-        product[updateProperty] = updateValue;
-    });
-    console.log("selected documents updated");
-    return;
-};
-const updateOneProduct = (
-    queryProperty,
-    queryValue,
-    updateProperty,
-    updateValue
-) => {
-    let query = products.find(product => product[queryProperty] == queryValue);
-    query[updateProperty] = updateValue;
 
-    console.log("selected documents updated");
-    return;
-};
+console.log(getDeliveryFees(2500));
 
 module.exports = {
-    findOneProduct,
-    findProducts
+    getDeliveryFees
 };

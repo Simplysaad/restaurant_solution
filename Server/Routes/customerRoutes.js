@@ -7,6 +7,8 @@ const Product = require('../Models/product.js');
 const Order = require('../Models/order.js');
 //const Combo = require('../Models/combo.js');
 
+const {getDeliveryFees} = require("../Utils/helper")
+
 router.get('/', async (req, res) => {
     try {
         let products = await Product.find({}, { name: 1, price: 1 });
@@ -141,10 +143,10 @@ router.post('/order', async (req, res) => {
         if (deliveryType === 'delivery') {
             //TODO: totalCost += getDeliveryFees(totalCost)
             //TODO: i have not defined the getDeliveryFees function yet
-            // req.session.cart.push({
-            //     name: 'Delivery Fees',
-            //     price: getDeliveryFees(totalCost)
-            // });
+            req.session.cart.push({
+                name: 'Delivery Fees',
+                price: getDeliveryFees(totalCost)
+            });
         }
         let totalCost = items.reduce((item, acc) => acc + item.price, 0);
         console.log(totalCost)
